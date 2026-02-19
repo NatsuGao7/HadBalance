@@ -12,7 +12,7 @@ We conducted our experiments on the [CUBS](https://data.mendeley.com/datasets/m7
 
 ## **Algorithm Description:**
 
-[![PDF Preview](./preview.png)](./hadwiger.pdf)
+[![PDF Preview](./hadwiger.png)](./hadwiger.pdf)
 The implementation of the Hadwiger module is illustrated in the figure above. For detailed code, please refer to hadwiger.py.
 
 
