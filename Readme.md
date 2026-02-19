@@ -42,4 +42,4 @@ First, apply the Slack AGP directly to the raw gradients. This step projects out
 
 Multiply each purified task gradient by its corresponding $\alpha$ weight and sum them to construct the final `joint_direction`. Finally, manually assign this combined vector back to the model's parameters before taking an optimizer step.
 * 💡 **Tip for AMP (Automatic Mixed Precision):** If your pipeline uses `torch.amp.autocast`, you must handle gradient scaling manually. Divide the extracted gradients by `scaler.get_scale()` before applying PGP and AGB. Then, multiply the resulting `joint_direction` back by the scale factor just before assigning it to `p.grad`.
-翻译下这里
+
