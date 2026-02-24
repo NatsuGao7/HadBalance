@@ -15,7 +15,7 @@ We conducted our experiments on the [CUBS](https://data.mendeley.com/datasets/m7
 ![Hadwiger Preview](./hadwiger.png)
 The implementation of the Hadwiger module is illustrated in the figure above. For detailed code, please refer to hadwiger.py.
 
-![COAB Preview](./coab.png)
+![COAB Preview](./caob.png)
 
 The Conflict-Aware Objective Balancing (COAB) mechanism consists of two core modules: PGP and AGB. Specifically, PGP is responsible for filtering out harmful conflicting gradients (determining the optimal direction), while AGB calculates the optimal fusion weights for the remaining safe directions (determining the step size). Working in tandem, they constitute the robust COAB framework. For more details, please refer to the source code pgp.py and agb.py.
 
